@@ -12,3 +12,9 @@
 # Accept user input 
 # Calculate fahrenheit
 # Output answer
+print "what number would you like to convert to fahrenheit?"
+uinput = int(raw_input())
+temp1 = uinput * 9
+temp2 = temp1 / 5
+temp3 = temp2 + 32
+print temp3
